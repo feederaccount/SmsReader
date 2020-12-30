@@ -1,0 +1,151 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    height: 900px;
+}
+
+.iphone {
+    position: relative;
+    background: #202020;
+    width: 100%;
+    height: 90%;
+    padding-top: 95%;
+    margin: 0 auto;
+    border-radius: 3em;
+}
+
+.power {
+    position: absolute;
+    background: #202020;
+    width: 13%;
+    height: .5%;
+    top: -.5%;
+    right: 12%;
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
+}
+
+.lock {
+    position: absolute;
+    background: #202020;
+    width: 1%;
+    height: 5%;
+    top: 12.5%;
+    left: -1%;
+    border-top-left-radius: .5em;
+    border-bottom-left-radius: .5em;
+}
+
+.volume {
+    position: absolute;
+    background: #202020;
+    width: 1%;
+    height: 4%;
+    top: 23%;
+    left: -1%;
+    border-top-left-radius: .5em;
+    border-bottom-left-radius: .5em;
+}
+
+    .volume.down {
+        top: 31%;
+    }
+
+.camera {
+    position: absolute;
+    top: 4%;
+    left: 48.5%;
+    background: #3f3f3f;
+    width: 3%;
+    height: 0;
+    padding-top: 3%;
+    border-radius: 50%;
+}
+
+.speaker {
+    position: absolute;
+    top: 6.5%;
+    left: 42.5%;
+    background: #3f3f3f;
+    width: 15%;
+    height: 0;
+    padding-top: 3%;
+    border-radius: 1em;
+}
+
+    .appleicon img {
+        width: 100%;
+        height: 100%;
+    }
+
+.screen {
+    background: #f0f0f0;
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    overflow-y: scroll;
+}
+
+.button {
+    position: absolute;
+    bottom: 2.75%;
+    left: 46.5%;
+    background: #3f3f3f;
+    border: 1px solid #3f3f3f;
+    width: 6%;
+    height: 4.5%;
+    padding-top: 6%;
+    border-radius: 50%;
+}
+
+.square {
+    position: absolute;
+    top: 27.5%;
+    left: 27.5%;
+    border: 2px solid #d7d7d7;
+    border-radius: .3em;
+    width: 45%;
+    height: 45%;
+}
+
+@media screen and (min-width: 28em ) {
+    body {
+        font-size: 8px;
+    }
+}
+
+@media screen and (min-width: 34em ) {
+    body {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 48em ) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/*@keyframes lighten {
+    0%, 45% {
+        background: #2f2f2f;
+    }
+
+    65%, 100% {
+        background: #f7f7f7;
+    }
+}
+
+@keyframes unhide {
+    0%, 55% {
+        opacity: 0
+    }
+
+    75%, 100% {
+        opacity: 1
+    }
+}*/
