@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmsReader", "SmsReader\SmsReader.csproj", "{1BAE5D7E-8DE4-4786-8DB1-79A5F65DF928}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmsReaderTests", "SmsReaderTests\SmsReaderTests.csproj", "{FFA452D5-B5F3-4BD5-85F9-F10FC27D98A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BAE5D7E-8DE4-4786-8DB1-79A5F65DF928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BAE5D7E-8DE4-4786-8DB1-79A5F65DF928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BAE5D7E-8DE4-4786-8DB1-79A5F65DF928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BAE5D7E-8DE4-4786-8DB1-79A5F65DF928}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA452D5-B5F3-4BD5-85F9-F10FC27D98A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA452D5-B5F3-4BD5-85F9-F10FC27D98A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA452D5-B5F3-4BD5-85F9-F10FC27D98A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA452D5-B5F3-4BD5-85F9-F10FC27D98A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3109DDC9-5672-4BCF-BCEC-7FFB008970F2}
+	EndGlobalSection
+EndGlobal
